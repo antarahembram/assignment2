@@ -1,0 +1,74 @@
+
+
+.display-4
+{
+	color:black;
+    font-family: 'Bree Serif', serif;
+
+}
+
+.pic_title
+{
+    font-family: 'Yrsa', serif;
+    font-size:60px;
+    background: white;
+    opacity: 0.8;
+}
+
+.sidebar_title
+{
+    font-family: 'Carter One', cursive;
+}
+h2
+{
+	color: white;
+}
+
+.mycard
+{
+	flex-direction: column;
+	height:500px;
+}
+
+.fb
+{
+	background: #3b5998;
+	color: white;
+}
+
+.tw
+{
+	background: #85c1e9;
+	color: white;
+}
+
+.ins
+{
+	background-color: #ea1828;
+	color: white;
+}
+
+footer a
+{
+	font-size:40px;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+.footer_text
+{
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.mo_text
+{
+	color: black;
+}
+
+.modal-title
+{
+	color:black;
+}

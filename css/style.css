@@ -1,4 +1,7 @@
-
+.logo
+{
+	height:40px;
+}
 
 .display-4
 {
@@ -15,6 +18,11 @@
     opacity: 0.8;
 }
 
+p::first-letter
+{
+	text-transform: uppercase;
+}
+
 .sidebar_title
 {
     font-family: 'Carter One', cursive;
@@ -27,8 +35,7 @@ h2
 .mycard
 {
 	flex-direction: column;
-	height:500px;
-}
+	}
 
 .fb
 {
@@ -65,10 +72,15 @@ li
 
 .mo_text
 {
-	color: black;
+	color: white;
 }
 
 .modal-title
 {
 	color:black;
+}
+
+.col
+{
+	background-color: red;
 }

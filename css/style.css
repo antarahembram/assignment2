@@ -1,31 +1,65 @@
+body
+{
+    font-family: 'Bree Serif', serif;
+}
+
+.button_search
+{
+	
+	margin-left: 20px;
+}
+p
+{
+	 text-transform: capitalize;
+}
+.my_crd
+{
+	margin-top: 20px;
+}
+.my_column
+{
+	margin-bottom: 10px;
+
+}
+.image_art
+{
+	width:300px;
+	height:300px;
+	padding-left: 20px;
+	margin-right: auto;
+   
+}
+
+.art_pad
+{
+	margin-left: 30px;
+}
+
 .logo
 {
-	height:40px;
+	height:60px;
+	width:60px;
 }
 
 .display-4
 {
 	color:black;
-    font-family: 'Bree Serif', serif;
 
 }
 
 .pic_title
 {
-    font-family: 'Yrsa', serif;
+   
     font-size:60px;
     background: white;
     opacity: 0.8;
 }
 
-p::first-letter
-{
-	text-transform: uppercase;
-}
+
 
 .sidebar_title
 {
-    font-family: 'Carter One', cursive;
+   // font-family: 'Carter One', cursive;
 }
 h2
 {
@@ -67,7 +101,7 @@ li
 
 .footer_text
 {
-    font-family: 'Love Ya Like A Sister', cursive;
+  //  font-family: 'Love Ya Like A Sister', cursive;
 }
 
 .mo_text
@@ -82,5 +116,5 @@ li
 
 .col
 {
-	background-color: red;
+
 }

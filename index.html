@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>
-      SWEETest
+      Ssweetest
     </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">   <!-- for mobiles -->
@@ -11,9 +11,6 @@
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet"> <!--google font-->
-    <link href="https://fonts.googleapis.com/css?family=Yrsa&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Carter+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!---for icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -22,230 +19,293 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top justify-content-center ">
-        <a class="navbar-brand " href="#"><img class="logo" src="/img/logo.jpeg" alt="image for logo" ></a>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
+        <a class="navbar-brand " href="#"><img class="logo" src="/img/logo.png" alt="image for logo" ></a>
         
          <!-- button for toggle-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span>Menu</span>
         </button>
         <!-- button closed-->
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto">
+        <section class="collapse navbar-collapse" >
+          <ul class="navbar-nav mr-auto text-uppercase">
             <li class="nav-item active ">
-              <a class="nav-link"  href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link"  href="#">home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://www.candyhistory.net/candy-origin/sweet-history/">History</a>
+              <a class="nav-link" href="http://www.candyhistory.net/candy-origin/sweet-history/">history</a>
             </li>
             <li class="nav-item">
-            	<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        		Type
-      			</a>
-                  <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">East</a>
-                  <a class="dropdown-item" href="#">West</a>
-                  <a class="dropdown-item" href="#">North</a>
-                  <a class="dropdown-item" href="#">South</a>
-                </div>
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Type
+            </a>
+                  <section class="dropdown-menu ">
+                  <a class="dropdown-item" href="#">east</a>
+                  <a class="dropdown-item" href="#">west</a>
+                  <a class="dropdown-item" href="#">north</a>
+                  <a class="dropdown-item" href="#">south</a>
+                </section>
               </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#">blog</a>
             </li>
           </ul>
           
           <!-- search bar and form-->
-          <form class="form-inline">
-             <input class="form-control" type="search" placeholder="Search">
-            <button class="btn btn-outline-success " type="submit">Search</button>
+          <form class="form-inline text-uppercase">
+             <input class="form-control" type="search" placeholder="search">
+            <button class="btn btn-outline-success button_search text-capitalize" type="submit" >search</button>
           </form>
-        </div>
+        </section>
 
       </nav>
     </header>
-	
-	<main><!-- main started-->
+  
+  <main><!-- main started-->
   <!-- carousel started-->  
-	   <div id="demo" class="carousel slide" data-ride="carousel">
+     <section id="demo" class="carousel slide" data-ride="carousel">
 
-	    <!-- Indicators -->
-		    <ul class="carousel-indicators">
-		      <li data-target="#demo" data-slide-to="0" class="active"></li>
-		      <li data-target="#demo" data-slide-to="1"></li>
-		      <li data-target="#demo" data-slide-to="2"></li>
-		    </ul>
-		    
-		    <!-- The slideshow -->
-		    <div class="carousel-inner">
-		      <div class="carousel-item active">
-		        <img src="/img/carousel1.jpg" class="image_carousel" alt="sweet" width="100%" height="600px" >
-		      </div>
-		      <div class="carousel-item">
-		        <img src="/img/carousel2.jpg" alt="rosogolla" width="100%" height="600px">
-		      </div>
-		      <div class="carousel-item">
-		        <img src="/img/carousel3.jpg" alt="deserts" width="100%" height="600px">
-		      </div>
-		    </div>
-		    
-		    <!-- Left and right controls -->
-		    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-		      <span class="carousel-control-prev-icon"></span>
-		    </a>
-		    <a class="carousel-control-next" href="#demo" data-slide="next">
-		      <span class="carousel-control-next-icon"></span>
-		    </a>
-	    </div>
-		<!--carousel ended-->
-	  
-		<!-- jumbotron started-->
-	    <div class="jumbotron jumbotron-fluid ">
-	        <div class="container">
-	        <h2 class="display-4">SWEETest</h2>
-	        </div>
-	    </div>
-	    <!-- jumbotron ended-->
-	</main>	<!--main ended-->
-	<section>
-		<div class="card-group">
-  <div class="card">
-    <img src="/img/sweet1.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="/img/col2.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="/img/col3.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-	</section>
-    <section> <!--section started-->
-	    <div class="card-group">
-	      <div class="card  text-black">
-	        <img src="/img/sweet1.jpg" class="card-img" alt="plate of sweets">
-	        <div class="card-img-overlay">
-	            <h3 class="card-title pic_title">Eat sweet and be sweet</h3>
-	        </div>
-	      </div>
+      <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <section class="carousel-inner">
+          <section class="carousel-item active">
+            <img src="/img/carousel1.png" class="image_carousel" alt="sweet" width="100%" height="600px" >
+          </section>
+          <section class="carousel-item">
+            <img src="/img/carousel2.png" alt="rosogolla" width="100%" height="600px">
+          </section>
+          <section class="carousel-item">
+            <img src="/img/carousel3.png" alt="deserts" width="100%" height="600px">
+          </section>
+        </section>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </section>
+    <!--carousel ended-->
+    
+    <!-- jumbotron started-->
+      <section class="jumbotron jumbotron-fluid ">
+          
+          <h2 class="display-4 text-uppercase">sweetest</h2>
+         
+      </section>
+      <!-- jumbotron ended-->
+  
+  
+    <section class="row my_column " style="margin-bottom: 20px;">
+  <article class="col text-center">
+    <img src="/img/col1.png" class="card-img-top image_art" alt="sweet1">
+    
+      <h5 class="text-uppercase">gulab jamun</h5>
+      <p class="text-lowercase"><span class="text-uppercase">g</span>ulab jamun is a milk-solid-based sweet from the Indian subcontinent, popular in <span class="text-uppercase">i</span>ndia, <span class="text-uppercase">n</span>epal, <span class="text-uppercase">p</span>akistan, the <span class="text-uppercase">m</span>aldives, and <span class="text-uppercase">b</span>angladesh.</p>
+        <button type="button" class="btn btn-info text-capitalize " data-toggle="modal" data-target="#myModal">
+                    read more</button>
+              <section class="modal" id="myModal">
+                <section class="modal-dialog modal-dialog-scrollable">
+                  <section class="modal-content">
+                    <section class="modal-header">
+                      <h2 class="modal-title text-uppercase">gulab jamun</h2>
+                      <button type="button" class="close" data-dismiss="modal">×</button>
+                    </section>
+                    
+                    <!-- Modal body -->
+                    <section class="modal-body bg-dark ">
+                      <p class="mo_text">
+                        It is also common in Mauritius, Fiji, southern and eastern Africa, Malay Peninsula, and the Caribbean countries of Trinidad and Tobago, Guyana, Suriname and Jamaica. It is made mainly from milk solids, traditionally from Khoya, which is milk reduced to the consistency of a soft dough. Modern recipes call for dried/powdered milk instead of Khoya. It is often garnished with dried nuts such as almonds to enhance flavour.
+                       </p>
+                    </section>
+                    <!--modal body ended-->
+                 <!-- Modal footer -->
+                <section class="modal-footer">
+                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </section>
+            
+              </section>
+            </section>
+          </section>
+    </article>
 
-	    <div class="card">
-	        <div class="card-group mycard">
-	          	<article><!--article started-->
-		          <div class="card bg-dark text-white">
-		            <div class="card-body">
-		              <h4 class="card-title sidebar_title">
-		              Sweets in India
-		              </h4>
-		          
-		              <p class="card-text">sweets from the Indian subcontinent are the confectionery and desserts of the Indian subcontinent.
-		              </p>
-		             <a class="text-link" href="">Click here to get list of sweets</a>
-		            </div>
-		         </div>
-	     		</article><!--article ended-->
-	          	<article><!--article started-->
-		          	<div class="card text-black "  >
-			          <div class="card-body">
-			            <h4 class="card-title sidebar_title">
-			              Shops
-			            </h4>
-			            <p class="card-text">if you want to have the flavours of India then go to the best sweet store. To get best sweet stores
-			            </p>
-			            <a class="text-link" href="">Click here </a>
-			          </div>         
-		        	</div>
-		        </article><!--article ended-->  
-	        </div>
-	      </div>
-	    </div>
+  <article class="col text-center">
+    <img src="/img/col2.png" class="card-img-top image_art" alt="sweet1">
+    
+      <h5 class="text-uppercase" >jalebi</h5>
+      <p class="text-lowercase"><span class="text-uppercase">j</span>alebi, also known as zalabia, is a sweet and popular food found all over<span class="text-uppercase"> S</span>outh <span class="text-uppercase">A</span>sia and the Middle East. It is extremely common in <span class="text-uppercase">p</span>akistan, <span class="text-uppercase">i</span>ndia and <span class="text-uppercase">b</span>anglades</p>
+      <button type="button" class="btn btn-info text-capitalize" data-toggle="modal" data-target="#myModal">
+                    raed more</button>
+              <section class="modal" id="myModal">
+                <section class="modal-dialog modal-dialog-scrollable">
+                  <section class="modal-content">
+                    <section class="modal-header">
+                      <h2 class="modal-title text-uppercase">jalebi</h2>
+                      <button type="button" class="close" data-dismiss="modal">×</button>
+                    </section>
+                    
+                    <!-- Modal body -->
+                    <section class="modal-body bg-dark ">
+                      <p class="mo_text">
+                         It is made by deep-frying maida flour (plain flour or all-purpose flour) batter in pretzel or circular shapes, which are then soaked in sugar syrup. They are particularly popular in the Indian subcontinent and Iran.
+
+This dessert can be served warm or cold. They have a somewhat chewy texture with a crystallized sugary exterior coating. Citric acid or lime juice is sometimes added to the syrup, as well as rose water. Jalebi is eaten with curd or rabri (North India) along with optional other flavours such as kewra (scented water).
+
+This dish is not to be confused with similar sweets and variants like imarti and chhena jalebi.  </p>
+                    </section>
+                    <!--modal body ended-->
+                 <!-- Modal footer -->
+                <section class="modal-footer">
+                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </section>
+            
+              </section>
+            </section>
+          </section>
+    </article>
+  
+  <article class="col text-center">
+    <img src="/img/col3.png" class="card-img-top image_art" alt="sweet1">
+    
+      <h5 class="text-uppercase">ras malai</h5>
+      <p ><span class="text-uppercase">r</span><span class="text-lowercase" >as malai, also known as Rossomalai (rōśomālāi), is a Bengali and Punjabi dessert. It has been described as "a rich cheesecake without a crust"</span></p>
+      <button type="button" class="btn btn-info text-capitalize" data-toggle="modal" data-target="#myModal">
+                    read more</button>
+              <section class="modal" id="myModal">
+                <section class="modal-dialog modal-dialog-scrollable">
+                  <section class="modal-content">
+                    <section class="modal-header">
+                      <h2 class="modal-title text-uppercase">ras malai</h2>
+                      <button type="button" class="close" data-dismiss="modal">×</button>
+                    </section>
+                    
+                    <!-- Modal body -->
+                    <section class="modal-body bg-dark ">
+                      <p class="mo_text">
+                        Different types of rasmalai can be found in different areas. In Dhaka and Rangpur, the rasmalais are similar in shape to the rasgullas.[2]
+
+                        The Angoori Ras Malai is a modern variation of Rasmalai.[5] In this dessert, the paneer or whey is made into small round balls the size of grapes (that is why the name Angoori).
+                      </p>
+                    </section>
+                    <!--modal body ended-->
+                 <!-- Modal footer -->
+                <section class="modal-footer">
+                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </section>
+            
+              </section>
+            </section>
+          </section>
+      
+    </article>
+  </section>
+ </main>
+     <!--section started-->
+      <section class="card-group my_crd" style="margin-top: 20px;margin-bottom: 20px;">
+        <article class="card  text-black">
+          <img src="/img/sweet1.png" class="card-img" alt="plate of sweets" style="margin-left: 20px; margin-right: 20px;">
+          <section class="card-img-overlay">
+              <h3 class="card-title pic_title text-capitalize">eat sweet and be sweet</h3>
+          </section>
+        </article>
+
+      <section class="card">
+          <section class="card-deck mycard " style="margin-left: 20px; margin-right: 20px;">
+              <article><!--article started-->
+              <section class="card bg-dark text-white">
+                <section class="card-body">
+                  <h4 class="card-title sidebar_title text-capitalize">
+                  sweets in india
+                  </h4>
+              
+                  <p class="card-text">sweets from the Indian subcontinent are the confectionery and desserts of the Indian subcontinent.
+                  </p>
+                 <a class="text-link text-capitalize" href="#">Click here to get list of sweets</a>
+                </section>
+             </section>
+          </article><!--article ended-->
+             
+                <section class="card text-black art_pad "  >
+                <section class="card-body art_pad">
+                  <h4 class="card-title sidebar_title text-capitalize">
+                    Shops
+                  </h4>
+                  <p class="card-text">if you want to have the flavours of India then go to the best sweet store. To get best sweet stores
+                  </p>
+                  <a class="text-link text-capitalize" href="">Click here </a>
+                </section>         
+              </section>
+            
+          </section>
+        </section>
+      </section>
     </section> <!--section ended-->
+
+
+    
+         <section class="container-fluid  text-black">
+          
+       
+        <artcle class=" text-center">
+            <h3 class="card-title footer_text texts-uppercase">Address</h3>
+            <h3 class="text-uppercase">Stackroute</h3>
+            <p>117, Above SBI, Opposite Raheja Arcade, KHB Colony, 7th Block, Koramangala, Bengaluru, Karnataka 560095</p>
+          <!--Google map-->  
+            <section id="map-container-google-8" class=" map-container-5" style="height: 200px">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1944.283280225592!2d77.61281893631703!3d12.935556206098985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e0c7d418f%3A0x48d008360cebcde4!2sStackroute!5e0!3m2!1sen!2sin!4v1566290564650!5m2!1sen!2sin" width="300" height="200" style="border:0" allowfullscreen></iframe>
+          </section>
+
+        </article>
+
+      </section>
+        
     <!-- footer started -->
-	  <footer class="page-footer font-small bg-primary"> 
-	    <div class="row">
-	      <div class="col bg-dark text-white">
-	        
-	          <h4 class=" footer_text">Follow us on</h4>
-	     
-	          <a href="#" class="fb"><i class="fa fa-facebook" ></i></a>
-	          <a href="#" class="tw"><i class="fa fa-twitter" ></i></a>
-	          <a href="#" class="ins"><i class="fa fa-instagram" ></i></a>
+    <footer class="page-footer "> 
+      <section class="row">
+        <section class="col bg-dark text-white">
+          
+             <h4 class=" footer_text text-uppercase">Contact Us</h4>
+            <ul>
+              <li>
+                <i class="fa fa-phone" >+91-9073071277</i>
+              </li>
+              <li>
+                <i class="fa fa-phone" >+91-8013578621</i><br>
+              </li>
+              <li>
+                <i class="fa fa-envelope">sweetest_india@gmail.com</i><br>
+              </li>
+            </ul>
+            
+    
+        
+      </section>    
+      
+      <section class="col bg-dark text-white">
+          
+       
+        <section class=" text-center">
+            <h4 class=" footer_text text-uppercase">follow us on</h4>
+       
+            <a href="#" class="fb"><i class="fa fa-facebook" ></i></a>
+            <a href="#" class="tw"><i class="fa fa-twitter" ></i></a>
+            <a href="#" class="ins"><i class="fa fa-instagram" ></i></a>
 
-	          <h4 class=" footer_text">Contact Us</h4>
-	          <ul>
-	            <li>
-	              <i class="fa fa-phone" >+91-9073071277</i>
-	            </li>
-	            <li>
-	              <i class="fa fa-phone" >+91-8013578621</i><br>
-	            </li>
-	            <li>
-	              <i class="fa fa-envelope">sweetest_india@gmail.com</i><br>
-	            </li>
-	          </ul>
-	          <h4 class="card-title footer_text">For more details</h4>
-	             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
-	                  Click Here</button>
-	            <div class="modal" id="myModal">
-	              <div class="modal-dialog modal-dialog-scrollable">
-	                <div class="modal-content">
-	                  <div class="modal-header">
-	                    <h2 class="modal-title">History of Sweets</h2>
-	                    <button type="button" class="close" data-dismiss="modal">×</button>
-	                  </div>
-	                  
-	                  <!-- Modal body -->
-	                  <div class="modal-body bg-dark ">
-	                    <p class="mo_text">
-	                      Sugarcane has been grown in the Indian subcontinent for thousands of years, and the art of refining sugar was invented there 8000 years ago (6000 BCE) by the Indus Valley Civilisation. The English word "sugar" comes from a Sanskrit word sharkara for the refined sugar, while the word "candy" comes from Sanskrit word khaanda for the unrefined sugar– one of the simplest raw forms of sweet.Over its long history, cuisines of the Indian subcontinent developed a diverse array of sweets. Some claim there is no other region in the world where sweets are so varied, so numerous, or so invested with meaning as the Indian subcontinent.
+           
 
-	                      In the diverse languages of the Indian subcontinent, sweets are called by numerous names, one common name being Mithai. They include sugar, and a vast array of ingredients such as different flours, milk, milk solids, fermented foods, root vegetables, raw and roasted seeds, seasonal fruits, fruit pastes and dry fruits.[8] Some sweets such as kheer are cooked, some like burfi are baked, varieties like Mysore pak are roasted, some like jalebi are fried, others like kulfi are frozen, while still others involve a creative combination of preparation techniques.The composition and recipes of the sweets and other ingredients vary by region. Mithai are sometimes served with a meal, and often included as a form of greeting, celebration, religious offering, gift giving, parties, and hospitality in the Indian subcontinent. On South Asian festivals – such as Holi, Diwali, Eid, and Raksha Bandhan – sweets are homemade or purchased, then shared. Many social gatherings, wedding ceremonies and religious festivals often include a social celebration of food, and the flavors of sweets are an essential element of such a celebration.
-	                    </p>
-	                  </div>
-	                  <!--modal body ended-->
-	               <!-- Modal footer -->
-	              <div class="modal-footer">
-	                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-	              </div>
-	          
-	            </div>
-	          </div>
-	        </div>
-	  
-	      
-	    </div>     
-	    <div class="col bg-dark text-white">
-	        
-	     
-	      <div class=" text-center">
-	          <h3 class="card-title footer_text">Address</h3>
-	          <h3>Stackroute</h3>
-	          <p>117, Above SBI, Opposite Raheja Arcade, KHB Colony, 7th Block, Koramangala, Bengaluru, Karnataka 560095</p>
-	        <!--Google map-->  
-	          <div id="map-container-google-8" class=" map-container-5" style="height: 200px">
-	            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1944.283280225592!2d77.61281893631703!3d12.935556206098985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e0c7d418f%3A0x48d008360cebcde4!2sStackroute!5e0!3m2!1sen!2sin!4v1566290564650!5m2!1sen!2sin" width="300" height="200" style="border:0" allowfullscreen></iframe>
-	        </div>
+        </section>
 
-	      </div>
-
-	    </div>
-	    </div>
-	  </footer>
-	  <!-- footer ended -->
+      </section>
+          </footer>
+    <!-- footer ended -->
 
     
   </body>

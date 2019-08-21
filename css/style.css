@@ -14,12 +14,11 @@ p
 }
 .my_crd
 {
-	margin-top: 20px;
+	margin-left: 20px; margin-right: 40px;
 }
-.my_column
+#my_column_grid
 {
-	margin-bottom: 10px;
-
+	margin-bottom: 20px;
 }
 .image_art
 {

@@ -12,6 +12,16 @@ p
 {
 	 text-transform: capitalize;
 }
+
+.card_u
+{
+	width:300px;
+}
+#con
+{
+	width:300px;
+}
+
 .my_crd
 {
 	margin-left: 20px; margin-right: 40px;
@@ -22,11 +32,19 @@ p
 }
 .image_art
 {
-	width:300px;
+	width:100%;
 	height:300px;
-	padding-left: 20px;
-	margin-right: auto;
+	
    
+}
+.col
+{
+	width:300px;
+}
+
+.container
+{
+	width: 300px;
 }
 
 .art_pad
@@ -55,11 +73,11 @@ p
 }
 
 
-
-.sidebar_title
+.tab-content
 {
-   // font-family: 'Carter One', cursive;
+	width:800px;
 }
+
 h2
 {
 	color: white;
@@ -74,6 +92,7 @@ h2
 {
 	background: #3b5998;
 	color: white;
+	size:30px;
 }
 
 .tw
@@ -113,7 +132,5 @@ li
 	color:black;
 }
 
-.col
-{
-
-}
+<p>To get sweet recipes</p>
+    <a href=""></a>
